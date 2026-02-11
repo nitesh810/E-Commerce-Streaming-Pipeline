@@ -245,7 +245,7 @@ WHERE DATE(processed_at) = CURRENT_DATE();
 2. Alert message published to order-alerts topic
 3. Cloud Function automatically triggered
 4. Function logs alert to Cloud Logging
-```
+
 
 ## 🤝 Contributing
 
