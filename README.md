@@ -231,15 +231,16 @@ ORDER BY window_start DESC;
 SELECT COUNT(*) as total_orders
 FROM `ecommerce_orders.orders`
 WHERE DATE(processed_at) = CURRENT_DATE();
-
+```
 #### 4. **Alerting Layer: Cloud Function**
 
 **Function: `process-order-alerts`**
 - **Trigger**: Pub/Sub message on `order-alerts` topic
 - **Purpose**: Handle anomaly notifications
 
+
 **How Alert Flow Works:**
-```
+
 1. DetectAnomalies finds spike (e.g., 1500 orders in 5 min)
 2. Alert message published to order-alerts topic
 3. Cloud Function automatically triggered
