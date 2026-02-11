@@ -1,0 +1,7 @@
+Project Name: ecommerce-streaming-pipeline
+Dataset: ecommerce_orders  
+Orders Table: orders
+Metrics Table: hourly_metrics
+Orders Topic: order-events
+Alerts Topic: order-alerts
+Bucket : pipeline-data
