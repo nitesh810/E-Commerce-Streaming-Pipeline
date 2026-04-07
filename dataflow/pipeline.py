@@ -29,7 +29,7 @@ def run():
     ])
     
     with beam.Pipeline(options=options) as pipeline:
-        # Step 1: Read and clean orders
+        # Step 1: Read
         orders = (
             pipeline
             | 'Read' >> pubsub.ReadFromPubSub(
