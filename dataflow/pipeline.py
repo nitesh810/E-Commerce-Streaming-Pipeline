@@ -14,9 +14,8 @@ from transforms.detect_anomalies import DetectAnomalies
 from utils.schemas import ORDERS_SCHEMA, METRICS_SCHEMA
 
 def run():
-    # YOUR SETTINGS - Change these
-    PROJECT_ID = 'your-project-id'
-    BUCKET = 'your-bucket'
+    PROJECT_ID = 'e-commerce-streaming-pd'
+    BUCKET = 'e-commerce-bucket'
     
     options = PipelineOptions([
         f'--project={PROJECT_ID}',
