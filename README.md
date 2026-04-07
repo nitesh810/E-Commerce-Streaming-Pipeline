@@ -12,7 +12,6 @@ Real-time order processing with Apache Beam on GCP Dataflow.
 ✅ **Capacity**: Designed to scale to **thousands of orders per minute**  
 ✅ **Latency**: **Real-time processing** using 5-minute windows  
 ✅ **Validation**: Tested with **large-scale simulated events**  
-✅ **Cost**: **~$70/month** for sustained **~500 orders/min** workload  
 ✅ **Availability**: Designed with **fault-tolerant streaming patterns**
 
 ### **Detailed Component Breakdown**
